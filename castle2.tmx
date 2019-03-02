@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="right-down" width="200" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="5">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="200" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="6">
  <tileset firstgid="1" name="MapDetails" tilewidth="32" tileheight="32" tilecount="225" columns="15">
   <image source="tile_castle.png" width="480" height="480"/>
   <tile id="4">
@@ -185,13 +185,19 @@
   <object id="1" name="spawn" x="148" y="545">
    <point/>
   </object>
-  <object id="2" name="doorin" x="36" y="577">
+  <object id="2" name="doorinOLD" x="36" y="577">
    <properties>
     <property name="nextMap" value="castle.json"/>
    </properties>
    <point/>
   </object>
   <object id="4" name="slime" x="241" y="471">
+   <point/>
+  </object>
+  <object id="5" name="doorin" x="255" y="581">
+   <properties>
+    <property name="nextMap" value="level1.json"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
